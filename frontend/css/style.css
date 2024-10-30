@@ -1,0 +1,205 @@
+body {
+  position: relative;
+}
+
+
+.jm-cookie-close {
+  float: right;
+  margin-left: 10px;
+}
+
+.jm-cookie-message-layer {
+  -webkit-transition: all 0.7s ease-out;
+     -moz-transition: all 0.7s ease-out;
+      -ms-transition: all 0.7s ease-out;
+       -o-transition: all 0.7s ease-out;
+          transition: all 0.7s ease-out;
+
+  position: fixed;
+  z-index: 999999;
+}
+
+.jm-cookie-message-layer-content h1 {
+  margin-top: 4px !important;
+}
+
+.jm-cookie-message-layer-content .jm-cookie-button {
+  transition: all .35s ease-in-out;
+  -moz-transition: all .35s ease-in-out;
+  -webkit-transition: all .35s ease-in-out;
+  -o-transition: all .35s ease-in-out;
+
+  display: inline-block;
+  margin-top: 5px;
+  position: relative;
+  z-index: 1;
+  overflow: hidden;
+  cursor:pointer;
+  padding: 5px 10px;
+  line-height: 17px;
+  font-size: 14px;
+  text-decoration: none;
+}
+
+/*
+* Big
+*/
+.jm-cookie-message-layer.big {
+  max-width: 100%;
+}
+
+.jm-cookie-message-layer.big .jm-cookie-message-layer-content {
+  padding: 20px;
+  max-width: 100%;
+}
+
+.jm-cookie-message-layer.big.topleft {
+ left: 10px;
+ top: 10px;
+ width: 200px;
+}
+
+.jm-cookie-message-layer.big.top {
+  left: 0;
+  right: 0;
+  top: 0;
+}
+
+.jm-cookie-message-layer.big.topright {
+ right: 10px;
+ top: 10px;
+ width: 200px;
+}
+
+.jm-cookie-message-layer.big.right {
+ right: 0;
+ top: 50%;
+ width: 200px;
+ transform: translate(0%, -50%);
+}
+
+.jm-cookie-message-layer.big.bottomleft {
+ left: 10px;
+ bottom: 10px;
+ width: 200px;
+}
+
+.jm-cookie-message-layer.big.bottom {
+ left: 0;
+ right: 0;
+ bottom: 0;
+}
+
+.jm-cookie-message-layer.big.bottomright {
+ right: 10px;
+ bottom: 10px;
+ width: 200px;
+}
+
+.jm-cookie-message-layer.big.left {
+ left: 0;
+ top: 50%;
+ width: 200px;
+ transform: translate(0%, -50%);
+}
+
+.jm-cookie-message-layer.big.fullscreen {
+  height: 100%;
+  width: 100%;
+  top:0;
+  left:0;
+  bottom: 0;
+}
+
+.jm-cookie-message-layer.big.fullscreen .jm-cookie-message-layer-content {
+  margin: 20px auto;
+  width: 240px;
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+/*
+* Small
+*/
+.jm-cookie-message-layer.small .jm-cookie-message-layer-content {
+  padding: 4px 6px;
+  white-space: nowrap;
+}
+
+.jm-cookie-message-layer.small.topleft {
+  display: block;
+  left: 10px;
+  top: 10px;
+}
+
+.jm-cookie-message-layer.small.top {
+  top: 10px;
+  left: 50%;
+  width: auto;
+  transform: translateX(-50%);
+}
+
+.jm-cookie-message-layer.small.top .jm-cookie-message-layer-content {
+
+}
+
+.jm-cookie-message-layer.small.topright {
+  display: block;
+  right: 10px;
+  top: 10px;
+}
+
+.jm-cookie-message-layer.small .jm-cookie-message-layer-content {
+  text-align: center;
+  line-height: 26px;
+}
+
+.jm-cookie-message-layer.small.right {
+  right: 0px;
+  top: 50%;
+  transform: translateY(-50%);
+}
+
+.jm-cookie-message-layer.small.bottomleft {
+  display: block;
+  left: 10px;
+  bottom: 10px;
+}
+
+.jm-cookie-message-layer.small.bottom {
+  bottom: 10px;
+  left: 50%;
+  width: auto;
+  transform: translateX(-50%);
+}
+
+.jm-cookie-message-layer.small.bottomright {
+  display: block;
+  right: 10px;
+  bottom: 10px;
+}
+
+.jm-cookie-message-layer.small.left {
+  left: 0px;
+  top: 50%;
+  transform: translateY(-50%);
+}
+
+.jm-cookie-message-layer.small.fullscreen {
+  height: 100%;
+  width: 100%;
+  top:0;
+  left:0;
+  bottom: 0;
+}
+
+ .jm-cookie-message-layer.small.fullscreen .jm-cookie-message-layer-content {
+   margin: 20px auto;
+   width: 240px;
+   position: fixed;
+   top: 50%;
+   left: 50%;
+   transform: translate(-50%, -50%);
+ }
